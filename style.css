@@ -1,0 +1,244 @@
+.game_button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 33.1%;
+    border-color: white;
+    font-family: kirsty;
+    text-decoration: none;
+    
+}
+
+div.left{
+    text-align: left;
+    max-width: 40%;
+    position: absolute; /*or fixed*/
+    left: 0px;
+    padding: 10% 20% 0 10%;
+
+}
+
+ .item {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+            font-size: 1.25em;
+            border: 2px solid #0056b3;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+       img:hover {
+            transform: scale(1.05);
+        }
+
+div.right{
+    text-align: right;
+    max-width: 90%;
+    position: absolute; /*or fixed*/
+    right: 0px;
+    padding: 0 5% 0 10%;
+}
+
+div .task_bar{
+    margin: 0px;
+}
+
+#iframe {
+    width: 1200px;
+    height: 700px;
+}
+
+.trivia_button:hover, .home_button:hover, .switch_on:hover, .switch_off:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.home_button {
+    background-color: black;
+    color: white;
+    width: 33.1%;
+    font-size: 20px;
+    border-color: white;
+    font-family: kirsty;
+    text-decoration: none;
+    
+}
+
+.certification_button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 33.1%;
+    border-color: white;
+    font-family: kirsty;
+    text-decoration: none;
+    
+}
+
+p.left {
+    text-align: left;
+}
+
+p {
+   font-family: kirsty;
+   
+}
+
+.profile{
+        
+width: 50%;
+height: 2%;
+      
+}
+
+header {
+    
+    color: white;
+    font-size: 35px;
+    border-color: white;
+    font-family: kirsty;
+    text-decoration: none;
+    padding: 0px;
+    text-align: center;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+}
+
+body {
+    
+    margin: 0px;
+    color: white;
+  background-color: #242832;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+ 
+}
+
+.header_button {
+    background-color: #242832;
+    color: white;
+    width: 50%;
+    font-size: 20px;
+    border-color: white;
+    font-family: kirsty;
+    text-decoration: none;
+}
+
+
+.switch_on {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-color: white;
+    font-family: kirsty;
+    text-decoration: none;
+}
+
+.switch_off {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-color: white;
+    font-family: kirsty;
+    text-decoration: none;
+}
+
+footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+
+.bar{
+    color: black;
+    background-color: black;
+    width: 140%;
+    height: 20%;
+    max-width: 100%;
+}
+
+.quiz-container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            text-align: left;
+            border: 9px solid black;
+            border-radius: 5px;
+        }
+        .question {
+            margin: 10px 0;
+        }
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+        }
+
+div.invis {
+    display: none;
+}
+
+
+
+
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+    height: 100vh;
+}
+
+
+.top-box {
+    background-color: #242832;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+
+
+.bottom-box {
+    background-color: #242832;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  direction: rtl; 
+  gap: 10px;
+  
+  
+  
+}
+
+.grid-item {
+   background-color: #242832;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  height: 40%;
+}
+
+.video {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+}
