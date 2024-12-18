@@ -242,7 +242,7 @@ div.invis {
     width: 50%;
     height: 50%;
 }
-h1.video {
+h1 .video {
     position: absolute;
     top: 60%;
     left: 25%;
