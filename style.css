@@ -263,5 +263,5 @@ div.invis {
 .videotext {
     position: absolute; /* Absolute positioning */
     top: 60%; /* Position slightly above the video */
-    left: 35%; /* Center horizontally */
+    left: 45%; /* Center horizontally */
 }
